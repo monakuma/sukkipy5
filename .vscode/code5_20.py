@@ -1,0 +1,17 @@
+def eat(breakfast,lunch="おにぎり",dinner="カレー"):#ディホルト引数は後ろから、使う。前でつかえば後ろもせて
+    print(f'朝は{breakfast}をたべました')
+    print(f'昼は{lunch}をたべました')
+    print(f'夕は{dinner}をたべました')
+
+eat("トースト",dinner="マーボカレー")
+print('8月１日')
+eat('トースト','おにぎり')
+print()    
+print('8月2日')
+eat('納豆ごはん','ラーメン')    
+print() 
+print('8月3日')
+eat('バナナ','そば','焼き肉')    
+print() 
+print('8月4日')
+eat('サンドウィッチ','しゅうまい弁当')    
