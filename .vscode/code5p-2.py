@@ -10,3 +10,5 @@ def is_leapyear(ad_num):
 
 ad_num=int(input('調べたい西暦を数字で入力してください＞＞'))
 is_leapyear(ad_num)
+
+
